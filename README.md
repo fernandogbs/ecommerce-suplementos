@@ -1,7 +1,3 @@
-Aqui está o README completo para o seu projeto, com a documentação do que foi feito, instruções de instalação e uso, bem como detalhes sobre o processo de configuração e execução:
-
----
-
 # **E-commerce de Suplementos - API**
 
 ## Descrição
