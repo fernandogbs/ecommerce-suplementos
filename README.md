@@ -2,9 +2,7 @@
 
 ## Descrição
 
-Este projeto é uma API simples para um e-commerce de suplementos, permitindo o gerenciamento de produtos como **Whey Protein**, **Creatina**, **BCAA**, entre outros. A API foi construída usando **Node.js**, **Express** e **MongoDB** (usando **Mongoose** para modelagem de dados).
-
-A API oferece as operações **CRUD** (Create, Read, Update, Delete) para gerenciamento de produtos, além de um **script de seed** para popular o banco de dados com produtos de exemplo.
+Este projeto é uma API para um e-commerce de suplementos, permitindo o gerenciamento de produtos.
 
 ---
 
@@ -18,21 +16,11 @@ A API oferece as operações **CRUD** (Create, Read, Update, Delete) para gerenc
 
 ---
 
-## Tecnologias Utilizadas
-
-- **Node.js**: Ambiente de execução JavaScript.
-- **Express**: Framework para criação da API.
-- **MongoDB**: Banco de dados NoSQL utilizado para armazenar os produtos.
-- **Mongoose**: Biblioteca de modelagem de objetos MongoDB para Node.js.
-- **Dotenv**: Para gerenciar variáveis de ambiente.
-
----
-
 ## Instalação
 
 ### Pré-requisitos
 
-- **Node.js**: Versão 12 ou superior.
+- **Node.js**
 - **MongoDB**: Um banco de dados MongoDB (pode ser local ou no MongoDB Atlas).
 
 ### Passos para Instalação
@@ -71,7 +59,7 @@ A API oferece as operações **CRUD** (Create, Read, Update, Delete) para gerenc
 Para iniciar o servidor da API, execute o comando:
 
 ```bash
-npm start
+node server.js
 ```
 
 Isso irá rodar o servidor na porta `3000` por padrão, e a API estará disponível em:
