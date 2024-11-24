@@ -11,9 +11,13 @@ mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("Conectado ao MongoDB"))
   .catch((error) => console.error("Erro ao conectar ao MongoDB:", error));
-
+  
 // Rotas
 app.use("/api/products", require("./routes/products"));
+
+app.get("/", (req, res) => {
+  res.send("API de Produtos");
+});
 
 // Porta do Servidor
 const PORT = process.env.PORT || 3000;
